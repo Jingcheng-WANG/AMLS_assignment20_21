@@ -22,7 +22,10 @@ import dlib
 import matplotlib
 import tensorflow
 ```
-Make sure your tensorflow version is higher than 2.0 <br>`print(tf.__version__)`
+Make sure your tensorflow version is higher than 2.0 <br>
+```c
+print(tf.__version__)
+```
 ## File Description
 ### Base Directory
 * main.py can be excuted to run the whole project.
