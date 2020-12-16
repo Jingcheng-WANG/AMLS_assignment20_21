@@ -49,7 +49,7 @@ print(tf.__version__)
           X = np.zeros((num,50,50,3))
               for file in range(num):
                   image = cv2.imread(root_path + img_path + '{}'.format(file) +'.png', 1)
-                  X[file] = cv2.resize(image,(50,50))
+                  X = cv2.resize(image,(50,50))
          return X
 >>```
 >>
