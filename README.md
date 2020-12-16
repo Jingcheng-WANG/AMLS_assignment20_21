@@ -37,4 +37,4 @@ print(tf.__version__)
 
 ## Contributors
 This project exists thanks to all the people who contribute.<br>
-[![Jingcheng Wang](https://avatars3.githubusercontent.com/u/72794136?s=60&v=4)](https://github.com/Jingcheng-WANG)
+[![Jingcheng Wang](https://avatars3.githubusercontent.com/u/72794136?s=60&v=4"Jingcheng Wang")](https://github.com/Jingcheng-WANG)
