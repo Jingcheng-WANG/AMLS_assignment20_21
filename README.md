@@ -13,7 +13,7 @@ In task A, traditional machine learning methods SVM and RF are adopted. In task 
 * macOS or Linux (Windows
 ### Installation Options
 Go check them out if you do not have them locally installed.
-```c
+```python
 import numpy
 import pandas
 import sklearn
@@ -29,6 +29,12 @@ print(tf.__version__)
 ## File Description
 ### Base Directory
 * main.py can be excuted to run the whole project.
-* shape_predictor_68_face_landmarks.dat 
-* 
+* shape_predictor_68_face_landmarks.dat is a face recognition database used for detecting 68 feature point.
+* Dlib_load_data.py
 * The file folder A1, A2, B1, B2 contain code fles for each task. Basically, they cannot run separately but need to rely on the support of main.py
+
+
+
+## Contributors
+This project exists thanks to all the people who contribute.<br>
+![](https://avatars3.githubusercontent.com/u/72794136?s=60&v=4)
