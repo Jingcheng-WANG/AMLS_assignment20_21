@@ -34,7 +34,7 @@ print(tf.__version__)
 * **Dlib_load_data.py** is done independently by us for importing 68 feature points of images and labels.<br>
 >>In this file, we shall only look at and call
 >>```python
->>pre_processing(num, label, root_path, point, split = True)
+>>def pre_processing(num, label, root_path, point, split = True)
 >>```
 >>*num* is the number of images to be imported, *label* is the index of the labels, *root_path* is the location path of the filea called, *point* is the number of feature points needed, *split* determines whether split the dataset into training set and validation set.
 * **CV2_load_data.py** is done independently by us for importing image pixel matrix sets and labels.
@@ -62,7 +62,12 @@ print(tf.__version__)
 ### Folder B2
 
 
-
+## Usage
+Just enter the following code in the command window
+```
+python main.py
+```
+Then, you can see the accuracy socre for training set and test set in each task
 ## Contributors
 This project exists thanks to all the people who contribute.<br>
 [![Jingcheng Wang](https://avatars3.githubusercontent.com/u/72794136?s=60&v=4 "Jingcheng Wang")](https://github.com/Jingcheng-WANG)
