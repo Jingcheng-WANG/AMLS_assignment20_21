@@ -63,8 +63,9 @@ print(tf.__version__)
 * **B1 B1_CNN.py** is the most accurate model and will be called in **main.py**. 
 >>Specifically, it includes model construction `B1_CNN()`, accuracy report `B1_acc()`, confusion matrix plotting `plot_confusion_matrix()`, loss curve plotting `plot_loss_curve()`, accuracy curve plotting `plot_accuracy_curve()`.
 * **B1_MLP.py** is not called in **main.py** and can be executed indenpendently. 
->>Specifically, it includes 
+>>Specifically, it includes On hot coding transformation `On_Hot_Coding()`, model construction `allocate_weights_and_biases()+multilayer_perceptron()`, hyper-parameter setting, accuracy report<br>
 >>To ensure that it can be run separately, please `import Dlib_load_data` in the correct path and copy **shape_predictor_68_face_landmarks.dat**
+* 1
 ### Folder B2
 * **B2 B2_CNN.py** will be called in **main.py**. 
 >>Specifically, it includes model construction `B2_CNN()`, accuracy report `B2_acc()`, confusion matrix plotting `plot_confusion_matrix()`, loss curve plotting `plot_loss_curve()`, accuracy curve plotting `plot_accuracy_curve()`.
