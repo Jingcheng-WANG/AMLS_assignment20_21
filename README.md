@@ -54,9 +54,9 @@ print(tf.__version__)
 >>```
 >>you can modify line 3 and line 6
 ### Folder A1
-* **A1.py** contains a lot of defined function which can be called in **main.py**. Specifically, it includes hyper-parameter selection by using GridSearchCV `A1_SVM_ParameterTuning` A1_RF_ParameterTuning, model construction `A1_SVM` `A1_RF`, and learning curve drawing `plot_learning_curve`
+* **A1.py** contains a lot of defined function which can be called in **main.py**. Specifically, it includes hyper-parameter selection by using GridSearchCV `A1_SVM_ParameterTuning()` `A1_RF_ParameterTuning()`, model construction `A1_SVM()` `A1_RF()`, accuracy report `A1_acc`, and learning curve drawing `plot_learning_curve()`
 ### Folder A2
-
+* **A2.py** contains a lot of defined function which can be called in **main.py**. Specifically, it includes hyper-parameter selection by using GridSearchCV `A2_SVM_ParameterTuning()` `A2_RF_ParameterTuning()`, model construction `A2_SVM()` `A2_RF()`, accuracy report `A2_acc`, and learning curve drawing `plot_learning_curve()`
 ### Folder B1
 
 ### Folder B2
