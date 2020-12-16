@@ -44,8 +44,7 @@ print(tf.__version__)
 >>```
 >>*num* is the number of images to be imported, *label* is the index of the labels, *root_path* is the location path of the filea called, *split* determines whether split the dataset into training set and validation set. The imported pixels will be compressed to 50*50. If you are not satisfied with this compression, you can modify
 >>```python
->>def load_cv2_data(num, root_path):
-          img_path = 'img/'
+>>def load_cv2_data(num, root_path):<br>img_path = 'img/'
           X = np.zeros((num,50,50,3))
               for file in range(num):
                   image = cv2.imread(root_path + img_path + '{}'.format(file) +'.png', 1)
