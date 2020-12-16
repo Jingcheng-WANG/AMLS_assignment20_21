@@ -29,10 +29,11 @@ print(tf.__version__)
 ## File Description
 ### Base Directory
 * **main.py** can be excuted to run the whole project.
-* **shape_predictor_68_face_landmarks.dat** is a face recognition database used for detecting 68 feature point.
-* **Dlib_load_data.py** is
-* **CV2_load_data.py** is
+* **shape_predictor_68_face_landmarks.dat** is a face recognition database used for detecting 68 feature points.
 * The file folder A1, A2, B1, B2 contain code fles for each task. Basically, they cannot run separately but need to rely on the support of main.py
+* **Dlib_load_data.py** is done independently by us for importing 68 feature points of images and labels.
+* **CV2_load_data.py** is done independently by us for importing image pixel matrix sets and labels.
+
 ### Folder A1
 ### Folder A2
 ### Folder B1
