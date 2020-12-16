@@ -42,7 +42,7 @@ print(tf.__version__)
 >>```python
 >>def pre_processing(num, label, root_path, split = True)
 >>```
->>*num* is the number of images to be imported, *label* is the index of the labels, *root_path* is the location path of the filea called, *split* determines whether split the dataset into training set and validation set. The imported pixels will be compressed to 50*50. If you are not satisfied with this compression, you can modify
+>>*num* is the number of images to be imported, *label* is the index of the labels, *root_path* is the location path of the filea called, *split* determines whether split the dataset into training set and validation set. The imported pixels will be compressed to 50*50. If you are not satisfied with this compression,
 >>```python
 >>def load_cv2_data(num, root_path):
 >>     img_path = 'img/'
@@ -52,11 +52,15 @@ print(tf.__version__)
 >>         X = cv2.resize(image,(50,50))
 >>    return X
 >>```
->>line 3 and line 6
+>>you can modify line 3 and line 6
 ### Folder A1
+* **A1.py** contains a lot of defined function which can be called in **main.py**. Specifically, it includes hyper-parameter selection by using GridSearchCV `A1_SVM_ParameterTuning` A1_RF_ParameterTuning, model construction `A1_SVM` `A1_RF`, and learning curve drawing `plot_learning_curve`
 ### Folder A2
+
 ### Folder B1
+
 ### Folder B2
+
 
 
 ## Contributors
