@@ -7,19 +7,25 @@ The development of biometric recognition technology has greatly promoted modern 
 * B1 Face shape recognition: 5 types of face shapes.<br>
 * B2 Eye color recognition: 5 types of eye colors.<br>
 In task A, traditional machine learning methods SVM and RF are adopted. In task B, we adopted and compared traditional machine learning methods, RF with MLP and CNN. The code can be found through the link at the bottom of this page .
-
 ## Install
 ### Requirement
 * Python 3.3+<br>
 * macOS or Linux (Windows
 ### Installation Options
 Go check them out if you do not have them locally installed.
-```
+```python
 import numpy
 import pandas
+import sklearn
 import cv2
 import dlib
 import matplotlib
 import tensorflow
 ```
-Make sure your tensorflow version is higher than 2.0 `print(tf.__version__)`
+Make sure your tensorflow version is higher than 2.0 <br>`print(tf.__version__)`
+## File Description
+### Base Directory
+* main.py can be excuted to run the whole project.
+* shape_predictor_68_face_landmarks.dat 
+* 
+* The file folder A1, A2, B1, B2 contain code fles for each task. Basically, they cannot run separately but need to rely on the support of main.py
