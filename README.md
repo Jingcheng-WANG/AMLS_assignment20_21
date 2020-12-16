@@ -9,6 +9,9 @@ The development of biometric recognition technology has greatly promoted modern 
 In task A, traditional machine learning methods SVM and RF are adopted. In task B, we adopted and compared traditional machine learning methods, RF with MLP and CNN. The code can be found through the link at the bottom of this page .
 
 ## Install
+### Requirement
+*Python 3.3+
+*macOS or Linux (Windows
 Go check them out if you do not have them locally installed.
 ```
 import numpy
