@@ -13,7 +13,7 @@ In task A, traditional machine learning methods SVM and RF are adopted. In task 
 * macOS or Linux (Windows
 ### Installation Options
 Go check them out if you do not have them locally installed.
-```python
+```c
 import numpy
 import pandas
 import sklearn
@@ -23,7 +23,7 @@ import matplotlib
 import tensorflow
 ```
 Make sure your tensorflow version is higher than 2.0 <br>
-```c
+```python
 print(tf.__version__)
 ```
 ## File Description
