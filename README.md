@@ -36,7 +36,7 @@ print(tf.__version__)
 >>```python
 >>pre_processing(num, label, root_path, point, split = True)
 >>```
->>num is the number of images to be imported
+>>*num* is the number of images to be imported, *label* is the index of the labels, *root_path* is the location path of the filea called. *point* is the number of feature points needed, *split* determines whether split the dataset into training set and validation set.
 * **CV2_load_data.py** is done independently by us for importing image pixel matrix sets and labels.
 
 ### Folder A1
