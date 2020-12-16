@@ -67,7 +67,8 @@ Just enter the following code in the command window
 ```
 python main.py
 ```
-Then, you can see the accuracy socre for training set and test set in each task
+Then, you can see the accuracy socre for training set and test set in each task<br>
+***Hint: It will takes Few minutes to executed***
 ## Contributors
 This project exists thanks to all the people who contribute.<br>
 [![Jingcheng Wang](https://avatars3.githubusercontent.com/u/72794136?s=60&v=4 "Jingcheng Wang")](https://github.com/Jingcheng-WANG)
