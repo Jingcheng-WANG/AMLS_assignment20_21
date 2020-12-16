@@ -38,8 +38,21 @@ print(tf.__version__)
 >>```
 >>*num* is the number of images to be imported, *label* is the index of the labels, *root_path* is the location path of the filea called, *point* is the number of feature points needed, *split* determines whether split the dataset into training set and validation set.
 * **CV2_load_data.py** is done independently by us for importing image pixel matrix sets and labels.
->111
-
+>>In this file, we shall only look at and call
+>>```python
+>>def pre_processing(num, label, root_path, split = True)
+>>```
+>>*num* is the number of images to be imported, *label* is the index of the labels, *root_path* is the location path of the filea called, *split* determines whether split the dataset into training set and validation set. The imported pixels will be compressed to 50*50. If you are not satisfied with this compression, you can modify
+>>```python
+>>def load_cv2_data(num, root_path):
+          img_path = 'img/'
+          X = np.zeros((num,50,50,3))
+              for file in range(num):
+                  image = cv2.imread(root_path + img_path + '{}'.format(file) +'.png', 1)
+                  X[file] = cv2.resize(image,(50,50))
+         return X
+>>```
+>>
 ### Folder A1
 ### Folder A2
 ### Folder B1
