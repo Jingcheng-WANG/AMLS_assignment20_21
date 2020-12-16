@@ -52,7 +52,7 @@ print(tf.__version__)
 >>         X = cv2.resize(image,(50,50))
 >>    return X
 >>```
->>
+>>line 3 and line 6
 ### Folder A1
 ### Folder A2
 ### Folder B1
