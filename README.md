@@ -10,8 +10,9 @@ In task A, traditional machine learning methods SVM and RF are adopted. In task 
 
 ## Install
 ### Requirement
-*Python 3.3+
+*Python 3.3+<br>
 *macOS or Linux (Windows
+### Installation Options
 Go check them out if you do not have them locally installed.
 ```
 import numpy
