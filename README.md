@@ -68,7 +68,7 @@ Just enter the following code in the command window
 python main.py
 ```
 Then, you can see the accuracy socre for training set and test set in each task<br>
-***Hint: It will takes Few minutes to executed***
+***Hint: It will takes few minutes to executed*** The testing computer is configured as CPU: i7-10750H, RAM: 16GB, GPU: Nvidia GeForce RTX 2060, and it taks about 8 min to run this code.
 ## Contributors
 This project exists thanks to all the people who contribute.<br>
 [![Jingcheng Wang](https://avatars3.githubusercontent.com/u/72794136?s=60&v=4 "Jingcheng Wang")](https://github.com/Jingcheng-WANG)
