@@ -58,9 +58,9 @@ print(tf.__version__)
 ### Folder A2
 * **A2.py** contains a lot of defined function which can be called in **main.py**. Specifically, it includes hyper-parameter selection by using GridSearchCV `A2_SVM_ParameterTuning()` `A2_RF_ParameterTuning()`, model construction `A2_SVM()` `A2_RF()`, accuracy report `A2_acc()`, and learning curve plotting `plot_learning_curve()`
 ### Folder B1
-* **B1 B1_CNN.py** is is the most accurate model and will be called by the main function. Specifically, it includes model construction `B1_CNN()`, accuracy report `B1_acc()`, confusion matrix plotting `plot_confusion_matrix()`
+* **B1 B1_CNN.py** is the most accurate model and will be called by the main function. Specifically, it includes model construction `B1_CNN()`, accuracy report `B1_acc()`, confusion matrix plotting `plot_confusion_matrix()`, loss curve plotting `plot_loss_curve()`, accuracy curve plotting `plot_accuracy_curve()`.
 ### Folder B2
-
+* **B2 B2_CNN.py** will be called by the main function. Specifically, it includes model construction `B2_CNN()`, accuracy report `B2_acc()`, confusion matrix plotting `plot_confusion_matrix()`, loss curve plotting `plot_loss_curve()`, accuracy curve plotting `plot_accuracy_curve()`.
 
 ## Usage
 Just enter the following code in the command window
