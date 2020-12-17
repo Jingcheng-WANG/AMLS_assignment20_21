@@ -80,7 +80,7 @@ Make sure your own datasets are in the same directory with **main.py** and have 
 > * celeba
 > * celeba_test<br>
 
-Remember, if datasets are placed in the wrong path or missing subfiles, the main fuction will not run. If you really cannot unify datasets due to some specific reasons, then you are recommended to read the description of `Dlib_load_data.pre_processing()` and `CV2_load_data.pre_processing()` in the file description and try to modify the imported parameters.<br>
+Remember, if datasets are placed in the wrong path or missing subfiles, the main fuction will not run. If you really cannot unify datasets due to some specific reasons, then you are recommended to read the description of `Dlib_load_data.pre_processing()` and `CV2_load_data.pre_processing()` in the file description and try to modify the imported parameters in *main.py*.<br>
 <br>
 Next, just enter the following code in the command window
 ```
