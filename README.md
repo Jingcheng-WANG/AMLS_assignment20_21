@@ -7,7 +7,7 @@ The development of biometric recognition technology has greatly promoted modern 
 * B1 Face shape recognition: 5 types of face shapes.<br>
 * B2 Eye color recognition: 5 types of eye colors.<br>
 
-In task A, traditional machine learning methods SVM and RF are adopted. In task B, we adopted and compared traditional machine learning methods, RF with MLP and CNN. The code can be found through the link at the bottom of this page .
+In task A, traditional machine learning methods SVM and RF are adopted. In task B, we adopted and compared traditional machine learning methods (RF) with Neural Networks (MLP and CNN).
 ## Install
 ### Requirement
 * Python 3.3+<br>
