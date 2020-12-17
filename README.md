@@ -74,18 +74,18 @@ print(tf.__version__)
 
 ## Usage
 1. Make sure your own datasets are in the same directory with **main.py** and have the following structure (subfiles)<br>
-* Datasets
-> * cartoon_set
-> * cartoon_set_test
-> * celeba
-> * celeba_test<br>
+>* Datasets
+>> * cartoon_set
+>> * cartoon_set_test
+>> * celeba
+>> * celeba_test<br>
 
 Remember, if datasets are placed in the wrong path or missing subfiles, the main fuction will not run. If you really cannot unify datasets due to some specific reasons, then you are recommended to read the description of `Dlib_load_data.pre_processing()` and `CV2_load_data.pre_processing()` in the file description and try to modify the imported parameters.<br>
 
 2. Next, just enter the following code in the command window
-```
-python main.py
-```
+>```
+>python main.py
+>```
 3. Then, you can see the accuracy socre for training set and test set in each task<br>
 
 ***Hint: It will takes few minutes to executed.*** (The testing computer is configured as CPU: i7-10750H, RAM: 16GB, GPU: Nvidia GeForce RTX 2060, and it taks about 8 min to run this code)
