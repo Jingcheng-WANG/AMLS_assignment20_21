@@ -74,7 +74,7 @@ print(tf.__version__)
 
 ## Usage
 Make sure your own datasets are in the same directory with **main.py** and have the following structure<br>
-\rightarrow Datasets
+\triangleright Datasets
 \rightarrow $\rightarrow$ cartoon_set
 $\rightarrow$ $\rightarrow$ cartoon_set_test
 $\rightarrow$ $\rightarrow$ celeba
