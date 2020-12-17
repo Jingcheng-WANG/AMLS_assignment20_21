@@ -79,6 +79,7 @@ Make sure your own datasets are in the same directory with **main.py** and have 
 > * cartoon_set_test
 > * celeba
 > * cartoon_test<br>
+
 Just enter the following code in the command window
 ```
 python main.py
