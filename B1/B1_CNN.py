@@ -18,7 +18,7 @@ def B1_CNN(x_train, x_test, y_train, y_test):
     x = Flatten()(x)   # flatten layer
     x = Dropout(0.2)(x)   # dropout layer
     x = Dense(512, activation='relu')(x)   # dense layer
-    x = Dropout(0.2)(x))   # dropout layer
+    x = Dropout(0.2)(x)   # dropout layer
     x = Dense(5, activation='softmax')(x)# dense layer
     
     # Built model
