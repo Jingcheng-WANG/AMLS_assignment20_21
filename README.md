@@ -73,6 +73,12 @@ print(tf.__version__)
 >>Specifically, it includes model construction `B2_CNN()`, accuracy report `B2_acc()`, confusion matrix plotting `plot_confusion_matrix()`, loss curve plotting `plot_loss_curve()`, accuracy curve plotting `plot_accuracy_curve()`.
 
 ## Usage
+Make sure your own datasets are in the same directory with **main.py** and have the following structure<br>
+$\rightarrow$ Datasets
+$\rightarrow$ $\rightarrow$ cartoon_set
+$\rightarrow$ $\rightarrow$ cartoon_set_test
+$\rightarrow$ $\rightarrow$ celeba
+$\rightarrow$ $\rightarrow$ cartoon_test
 Just enter the following code in the command window
 ```
 python main.py
